@@ -1,0 +1,17 @@
+project_name: PV-Reasoner
+base_model: Qwen/Qwen2.5-1.5B-Instruct
+training:
+  method: QLoRA SFT
+  max_seq_length: 2048
+  learning_rate: 0.0002
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  max_steps: 300
+evaluation:
+  metrics:
+    - json_validity
+    - seriousness_accuracy
+    - meddra_top3_hit_rate
+    - label_status_accuracy
+    - evidence_coverage

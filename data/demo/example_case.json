@@ -1,0 +1,24 @@
+{
+  "case_id": "DEMO-001",
+  "narrative": "A 64-year-old female started atorvastatin two weeks ago. She developed severe muscle pain and weakness, and labs showed CK 6200. She was admitted to hospital for suspected rhabdomyolysis. The report does not state whether atorvastatin was stopped.",
+  "suspect_drug": "Atorvastatin",
+  "concomitant_drugs": [],
+  "patient_age": "64 years",
+  "patient_sex": "female",
+  "report_outcomes": [
+    "hospitalization"
+  ],
+  "reactions": [
+    "Rhabdomyolysis"
+  ],
+  "labs": {
+    "CK": "6200",
+    "creatinine": "1.6"
+  },
+  "source": "demo",
+  "gold": {
+    "serious": true,
+    "primary_pt": "Rhabdomyolysis",
+    "label_status": "listed"
+  }
+}

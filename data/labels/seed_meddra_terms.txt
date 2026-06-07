@@ -1,0 +1,29 @@
+Rash
+Urticaria
+Anaphylactic reaction
+Nausea
+Vomiting
+Diarrhoea
+Headache
+Dizziness
+Rhabdomyolysis
+Myalgia
+Myopathy
+Hepatitis
+Drug-induced liver injury
+Pancreatitis
+Acute kidney injury
+Renal impairment
+Renal failure
+Thrombocytopenia
+Stevens-Johnson syndrome
+Toxic epidermal necrolysis
+Hypoglycaemia
+Hyperkalaemia
+Seizure
+Dyspnoea
+Chest pain
+Angioedema
+Gastrointestinal haemorrhage
+Bleeding
+Lactic acidosis

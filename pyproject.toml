@@ -1,0 +1,11 @@
+[project]
+name = "pv-reasoner"
+version = "0.1.0"
+description = "Evidence-grounded pharmacovigilance medical review assistant"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
