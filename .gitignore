@@ -1,8 +1,38 @@
-.venv/
+# ── Proprietary / licensed data ───────────────────────────────────────────────
+MEDDRA.xlsx
+
+# ── Generated model weights (too large for GitHub) ────────────────────────────
+train/output/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# ── Duplicate / scratch folders ───────────────────────────────────────────────
+data - Copy/
+
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
-*.pyc
-outputs/*
-!outputs/.gitkeep
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
 .env
-.cache/
-.pytest_cache/
+*.key
