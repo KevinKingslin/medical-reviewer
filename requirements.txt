@@ -12,5 +12,5 @@ streamlit>=1.37.0
 torch>=2.3.0
 transformers>=4.44.0
 trl>=0.9.6
-# bitsandbytes is required for 4-bit QLoRA on CUDA Linux. Install separately if needed:
+# bitsandbytes is required for 4-bit QLoRA on CUDA Linux. Install separately if needed: 
 # pip install bitsandbytes
